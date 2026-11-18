@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.title-font {
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.hJDwNd-SxQuSe {
+  width: 100% !important;
+}
+
+.nsm7Bb-HzV7m-LgbsSe-BPrWId {
+  -webkit-flex-grow: 0 !important;
+}
+
+.nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
+
+
+@layer base {
+  select {
+    color-scheme: light;
+  }
+
+  select option {
+    background-color: #ffffff;
+    color: #555247;
+    font-size: 14px;
+  }
+
+  select option:checked {
+    background-color: #8c704d;
+    color: #ffffff;
+  }
+
+  select option:disabled {
+    color: #aaa69a;
+  }
+}
